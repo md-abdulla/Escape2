@@ -1,0 +1,65 @@
+@media(max-width: 1199px) {}
+
+@media(max-width: 991px) {
+    #help .helplgo img {
+        padding: 0 6px;
+    }
+}
+
+@media(max-width: 767px) {
+    #home h1 {
+        font-size: 50px;
+    }
+    .data {
+        padding: 30px;
+    }
+    .ip {
+        padding: 30px;
+    }
+    #clients .speakbox p {
+        font-size: 19px;
+    }
+    #help .helplgo img {
+        display: block;
+        padding: 15px;
+    }
+}
+
+@media(max-width: 575px) {
+    #home {
+        width: 563px;
+    }
+    .wdp {
+        width: 563px;
+    }
+    #identity {
+        width: 563px;
+    }
+    #Services {
+        width: 563px;
+    }
+    #clients {
+        width: 563px;
+    }
+    #help {
+        width: 563px;
+    }
+    #team {
+        width: 563px;
+    }
+    #contact {
+        width: 563px;
+    }
+    .frm {
+        width: 300px;
+    }
+    #Services img {
+        width: 50px;
+    }
+    footer {
+        width: 563px;
+    }
+    #home h1 {
+        font-size: 40px;
+    }
+}

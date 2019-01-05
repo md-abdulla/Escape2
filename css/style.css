@@ -1,0 +1,247 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {}
+#loader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-image: url(../img/ld.gif);
+    z-index: 99999;
+    background-repeat: no-repeat;
+    background-color: #191412;
+    background-position: center center;
+    background-size: 500px 500px;
+}
+
+
+#home {
+    background: url(../img/Escape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00000017;
+}
+
+.vh {
+    height: 80vh;
+}
+
+.learn {
+    border: 2px solid #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#home h1 {
+    padding-bottom: 15px;
+    font-size: 67px;
+}
+
+#home h4 {
+    font-size: 32px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.data {
+    padding: 50px;
+    text-align: justify;
+}
+
+.data h1 {
+    padding: 20px 0;
+}
+
+.data p {
+    color: #777777;
+    font-size: 18px;
+}
+
+.ip {
+    padding: 150px;
+    text-align: center;
+}
+
+.ip img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#identity {
+    background: #fafafa;
+}
+
+#Services {
+    padding: 100px 0;
+}
+
+#Services .item {
+    padding: 30px 0;
+}
+
+#Services .item h5 {
+    font-size: 22px;
+}
+
+#Services .item p {
+    font-size: 18px;
+    color: #777777;
+}
+
+#clients {
+    padding: 100px 0;
+    background: #FAFAFA;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.heading h1 {
+    font-size: 60px;
+}
+
+.heading p {
+    font-size: 22px;
+}
+
+#clients .cp {
+    text-align: center;
+}
+
+#clients .cp img {
+    border: 4px solid black;
+    border-radius: 50%;
+    width: 200px;
+}
+
+#clients .speakbox {
+    padding: 40px;
+    background: url(../img/div1.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+#clients .speakbox p {
+    font-size: 26px;
+    color: #777777;
+}
+
+#clients .speakbox a {
+    font-size: 20px;
+}
+
+#help {
+    padding: 20px 0;
+}
+
+#help .helplgo {
+    margin: 0 auto;
+}
+
+#help .helplgo img {
+    padding: 0 15px;
+}
+
+#team {
+    background: black;
+    padding: 100px 0;
+}
+
+#team .tm {
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.tm img {}
+
+.tm h5 {
+    font-size: 18px;
+}
+
+.tm h6 {
+    font-size: 18px;
+}
+
+.tm a {
+    color: #fff;
+    padding: 10px;
+}
+
+.tm .fab {
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#team .last {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 35px 0;
+    color: gray;
+}
+
+.gh {}
+
+.gh strong {}
+
+.gp {
+    color: gray;
+}
+
+#contact {
+    background: #7690c5;
+    padding: 100px 0;
+}
+
+.num {
+    color: #fff;
+}
+
+.num h1 {}
+
+.num p {
+    padding: 40px 0;
+    font-size: 18px;
+}
+
+.num i {
+    padding-right: 10px;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.num a {
+    font-size: 18px;
+}
+
+.frm {
+    width: 400px;
+    padding: 0;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px 0;
+}
